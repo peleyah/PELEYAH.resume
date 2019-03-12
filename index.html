@@ -90,9 +90,9 @@
                     text-primary ~ color: cornflowerblue;
                 -->
                 <div class=w-100>
-                    <h1 class=mb-0>João
+                    <strong><h1 class=mb-0>João
                         <span class=text-primary>Sousa</span>
-                    </h1>
+                    </h1></strong>
                     <!--
                         subheading ~ text-transform: uppercase;
                     -->
@@ -140,7 +140,7 @@
                 <div>Level V</div>
             </div>
             <div class="resume-date text-md-right">
-                <span class=text-primary style="box-sizing: none;">2019 - NOW</span>
+                <span class=text-primary>2019 - NOW</span>
             </div>
         </div>
     </div>
@@ -182,16 +182,16 @@
                         <img src="img/html-5.png" alt="" title="HTML5">
                     </li>
                     <li class=list-inline-item>
-                            <img src="img/css.png" alt="" title="CSS">
+                        <img src="img/css.png" alt="" title="CSS">
                     </li>
                     <li class=list-inline-item>
-                            <img src="img/php.png" alt="" title="PHP">
+                        <img src="img/php.png" alt="" title="PHP">
                     </li>
                     <li class=list-inline-item>
-                            <img src="img/prestashop.png" alt="" title="PRESTASHOP">
+                        <img src="img/prestashop.png" alt="" title="PRESTASHOP">
                     </li>
                     <li class=list-inline-item>
-                            <img src="img/wordpress.png" alt="" title="WORDPRESS">
+                        <img src="img/wordpress.png" alt="" title="WORDPRESS">
                     </li>
                 </ul>
             </div>
@@ -206,19 +206,19 @@
             <h2 class=mb-5>Things that I <i class="em em-blue_heart"></i> to do in my spare time</h2>
             <ul class="list-inline dev-icons">
                 <li class=list-inline-item>
-                    <img src="img/html-5.png" alt="" title="HTML5">
+                    <img src="img/family.png" alt="" title="FAMILY TIME IS PRECIOUS">
                 </li>
                 <li class=list-inline-item>
-                        <img src="img/css.png" alt="" title="CSS">
+                    <img src="img/billiard.png" alt="" title="BILLIARDS">
                 </li>
                 <li class=list-inline-item>
-                        <img src="img/php.png" alt="" title="PHP">
+                    <img src="img/world.png" alt="" title="TRAVELLING">
                 </li>
                 <li class=list-inline-item>
-                        <img src="img/prestashop.png" alt="" title="PRESTASHOP">
+                    <img src="img/music.png" alt="" title="LISTENING TO MUSIC &lt;3">
                 </li>
                 <li class=list-inline-item>
-                        <img src="img/wordpress.png" alt="" title="WORDPRESS">
+                    <img src="img/video-player.png" alt="" title="WATCHING TV SHOWS &amp; MOVIES">
                 </li>
             </ul>
         </div>
@@ -236,26 +236,28 @@
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
+            <form>
             <div class="modal-body">
-                <form>
                 <div class="row">
-                    <div class="col-md-6">
-                    <input type="text" class="form-control" placeholder="Your name">
+                    <div class="form-group col-md-6">
+                        <label>Your name:</label>
+                        <input type="text" class="form-control" required>
                     </div>
-                    <div class="col-md-6">
-                    <input type="email" class="form-control" placeholder="Your email">
+                    <div class="form-group col-md-6">
+                        <label>Your email:</label>
+                        <input type="email" class="form-control" required>
                     </div>
                     <div class="form-group col-md-12">
-                            <label for="comment">Message:</label>
-                            <textarea class="form-control" rows="5" id="msg"></textarea>
+                        <label>Your message:</label>
+                        <textarea class="form-control" rows="5" id="msg" required></textarea>
                     </div>
-                </div>
-                </form>
+                </div>  
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Send message</button>
+              <button type="submit" class="btn btn-primary">Send message</button>
             </div>
+            </form>
           </div>
         </div>
       </div>
