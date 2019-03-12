@@ -1,0 +1,281 @@
+*{
+  font-family: 'Agency FB', arial;
+}
+
+body {
+  font-family: 'Agency FB', arial;
+  padding-top: 54px;
+  color: #868e96;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+  font-size: 1.15rem;
+  font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Agency FB', arial;
+  font-size: 1.5rem;
+}
+
+.dev-icons {
+  font-size: 3rem;
+}
+
+.dev-icons .list-inline-item i:hover {
+  color: cornflowerblue;
+}
+
+.social-icons a{
+  color: white;
+  font-size: 2rem;
+}
+
+.social-icons .list-inline-item i:hover {
+  color:#0C3667;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+.navbar-nav .nav-item .nav-link {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+}
+
+a.navbar-brand {
+  color: white !important;
+}
+
+#topNav{
+  background-color: cornflowerblue !important;
+}
+
+@media (min-width: 992px) {
+  #sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh; /* Relative to 1% of the height of the viewport */
+  }
+  #sideNav .navbar-brand {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: auto auto 0;
+    padding: 0.5rem;
+  }
+  #sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+  }
+  #sideNav .navbar-collapse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-flex: 0;
+    -ms-flex-positive: 0;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+  }
+  #sideNav .navbar-collapse .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+  }
+  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+  }
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh; /* Relative to 1% of the height of the viewport */
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+.bg-primary {
+  background-color: cornflowerblue !important;
+}
+
+.text-primary {
+  color: cornflowerblue !important;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+a:hover, a:focus, a:active {
+  color: white;
+}
+
+/* BEGINING Typing anymation */
+
+.css-typing p{
+  width: 11.5em;
+  opacity: 0;
+  -webkit-animation: type 1.5s steps(40, end);
+  animation: type 1.5s steps(40, end);
+  -webkit-animation-delay: 2s;
+  animation-delay: 2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  border-right: .15em solid cornflowerblue;
+  font-family: "Courier";
+  font-size: 25px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid cornflowerblue;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  99.9% {
+    border-right: .15em solid cornflowerblue;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+/* END Typing anymation */
+
+a:hover {
+    color: #0C3667 !important;
+}
+
+/* BEGINING Message button*/
+.msg-me {
+  background-color : cornflowerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.msg-me:hover {
+  border-color: #0C3667;
+}
+
+#msg-button {
+  position: fixed;
+  bottom: -4px;
+  right: 10px;
+}
+/* END Message button*/
+
+
+.email{
+  font-size: 20px;
+  color:white;
+}

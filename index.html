@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset=utf-8>
+        <meta name=viewport content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name=description content=CV>
+        <meta name=author content=JSousa>
+        <title>&lt;/J&gt; JSousa</title>
+        <link href=vendor/bootstrap/css/bootstrap.min.css rel=stylesheet>
+        <link href=vendor/fontawesome-free/css/all.min.css rel=stylesheet>
+        <link href=css/resume.css rel=stylesheet>
+        <link href=https://afeld.github.io/emoji-css/emoji.css rel=stylesheet>
+        <link href="http://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body id=page-top>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id=sideNav>
+            <a class="navbar-brand js-scroll-trigger" href=#page-top>
+			<!-- To show an element only on a given interval of screen sizes
+			d-block (Visible on all screens) d-lg-none (Hidden only on lg) d-none(Hidden on all)  
+			https://getbootstrap.com/docs/4.0/utilities/spacing/ -->
+                <span class="d-block d-lg-none"></span>
+                <span class="d-none d-lg-block">
+				<!-- 
+				Create responsive images by adding an .img-fluid class to the <img> tag. The image will then scale nicely to the parent element.
+				https://getbootstrap.com/docs/4.0/content/images/ 
+				Horizontal centering .mx-auto
+				https://getbootstrap.com/docs/4.0/utilities/spacing/ 
+				mb-2 ~ margin bottom
+				-->
+                    <img class="img-fluid img-profile mx-auto mb-2 rounded mx-auto d-block" src=img/js.jpg alt="">
+                </span>
+            </a>
+            <ul class="list-inline social-icons">
+                    <li class=list-inline-item>
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                    </li>
+                    <li class=list-inline-item>
+                       <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a> 
+                    </li>
+                    <li class=list-inline-item>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class=list-item>
+                        <p class="email">joao.sousa.t0114421@edu.atec.pt</p>
+                    </li>
+                    <li class="list-item d-lg-none">
+                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </li>
+
+            </ul>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-collapse fixed-top navbar-light bg-light " id=topNav>
+            <a class=navbar-brand href=#>
+                &lt;/J&gt;
+            </a>
+            <button class=navbar-toggler type=button data-toggle=collapse data-target=#navbarSupportedContent aria-controls=navbarSupportedContent aria-expanded=false aria-label="Toggle navigation">
+                <span class=navbar-toggler-icon></span>
+            </button>
+            <div class="collapse navbar-expand-lg navbar-collapse" id=navbarSupportedContent>
+                <ul class=navbar-nav>
+                    <li class=nav-item>
+                        <a class="nav-link js-scroll-trigger" href=#about style=color:white>About</a>
+                    </li>
+                    <li class=nav-item>
+                        <a class="nav-link js-scroll-trigger" href=#experience style=color:white>Experience</a>
+                    </li>
+                    <li class=nav-item>
+                        <a class="nav-link js-scroll-trigger" href=#education style=color:white>Education</a>
+                    </li>
+                    <li class=nav-item>
+                        <a class="nav-link js-scroll-trigger" href=#skills style=color:white>Skills</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+		<!-- .container-fluid full width container, spanning the entire width of your viewport. 
+		p-0 ~ padding: 0;
+		p-lg-5 ~ padding on viewports sized LG (large) or wider 5
+		mb-5 ~ margin-bottom: 5;
+        -->
+        
+        <div class="container-fluid p-0">
+            <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=about>
+                <!--
+                    w-100 ~ width: 100;
+                    text-primary ~ color: cornflowerblue;
+                -->
+                <div class=w-100>
+                    <h1 class=mb-0>João
+                        <span class=text-primary>Sousa</span>
+                    </h1>
+                    <!--
+                        subheading ~ text-transform: uppercase;
+                    -->
+                    <div class="subheading mb-5">
+                    </div>
+                    <div class="css-typing">
+                            <p>
+                              Junior programmer.
+                            </p>
+                          </div>
+                    <blockquote class=blockquote>
+                        <h4>"You don't need to be better than anyone else; you just need to be better than you used to be."</h4>
+                        <footer class=blockquote-footer>Wayne Dyer</footer>
+                    </blockquote>
+                    
+        </div>
+    </section>
+<hr class=m-0>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=education>
+    <div class=w-75>
+        <h2 class=mb-5>Education</h2>
+		<!--
+		Use justify-content utilities on flexbox containers to change the alignment of flex items on the main axis 
+		(the x-axis to start, y-axis if flex-direction: column). 
+		Choose from start (browser default), end, center, between, or around.
+		https://getbootstrap.com/docs/4.0/utilities/flex/
+		-->
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class=resume-content>
+                <img src=img/logoERC.png alt="" title="ERC">
+                <div class="subheading mb-3">Management And Programming of Computer Systems</div>
+                <div>Level IV</div>
+            </div>
+			<!--
+			<p class="text-md-right">Right aligned text on viewports sized MD (medium) or wider.</p>
+			-->
+            <div class="resume-date text-md-right">
+                <span class=text-primary>2016 - 2019</span>
+            </div>
+        </div>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class=resume-content>
+                <img src=img/logoAtec.png alt="" title="ATEC">
+                <div class="subheading mb-3">Programming of Computer Systems</div>
+                <div>Level V</div>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class=text-primary style="box-sizing: none;">2019 - NOW</span>
+            </div>
+        </div>
+    </div>
+</section>
+<hr class=m-0>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=skills>
+    <div class=w-100>
+        <h2 class=mb-5>Programming Languages &amp; Tools</h2>
+        <ul class="list-inline dev-icons">
+            <li class=list-inline-item>
+                <img src="img/html-5.png" alt="" title="HTML5">
+            </li>
+            <li class=list-inline-item>
+                    <img src="img/css.png" alt="" title="CSS">
+            </li>
+            <li class=list-inline-item>
+                    <img src="img/php.png" alt="" title="PHP">
+            </li>
+            <li class=list-inline-item>
+                    <img src="img/prestashop.png" alt="" title="PRESTASHOP">
+            </li>
+            <li class=list-inline-item>
+                    <img src="img/wordpress.png" alt="" title="WORDPRESS">
+            </li>
+        </ul>
+    </div>
+</section>
+<hr class=m-0>
+<section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=experience>
+    <div class=w-100>
+        <h2 class=mb-5>Experience</h2>
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class=resume-content>
+                <h3 class=mb-0>Junior Web Developer Internship</h3>
+                <div class="subheading mb-3">@AI</div>
+                <div class="subheading mb-3">Programming Languages &amp; Tools That I Loved To Use And Interact</div>
+                <ul class="list-inline dev-icons">
+                    <li class=list-inline-item>
+                        <img src="img/html-5.png" alt="" title="HTML5">
+                    </li>
+                    <li class=list-inline-item>
+                            <img src="img/css.png" alt="" title="CSS">
+                    </li>
+                    <li class=list-inline-item>
+                            <img src="img/php.png" alt="" title="PHP">
+                    </li>
+                    <li class=list-inline-item>
+                            <img src="img/prestashop.png" alt="" title="PRESTASHOP">
+                    </li>
+                    <li class=list-inline-item>
+                            <img src="img/wordpress.png" alt="" title="WORDPRESS">
+                    </li>
+                </ul>
+            </div>
+            <div class="resume-date text-md-right">
+                <span class=text-primary>2019</span>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="msg-button">
+    <button class="msg-me" data-toggle="modal" data-target="#contactMeModal"><i class="em em-email"></i></button>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="contactMeModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Hey ;) Send me a message and I promise to answer as soon as possible.</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                <div class="row">
+                    <div class="col-md-6">
+                    <input type="text" class="form-control" placeholder="Your name">
+                    </div>
+                    <div class="col-md-6">
+                    <input type="email" class="form-control" placeholder="Your email">
+                    </div>
+                    <div class="form-group col-md-12">
+                            <label for="comment">Message:</label>
+                            <textarea class="form-control" rows="5" id="msg"></textarea>
+                    </div>
+                </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</div>
+<script src=vendor/jquery/jquery.min.js></script>
+<script src=vendor/bootstrap/js/bootstrap.bundle.min.js></script>
+<script src=vendor/jquery-easing/jquery.easing.min.js></script>
+</body>
+</html>
