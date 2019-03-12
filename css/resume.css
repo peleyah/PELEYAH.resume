@@ -1,9 +1,14 @@
 *{
-  font-family: 'Agency FB', arial;
+  font-family: 'AFB', arial;
+}
+
+@font-face {
+  font-family: "AFB";
+  src: url(AgencyFB.ttf) format("truetype");
 }
 
 body {
-  font-family: 'Agency FB', arial;
+  font-family: 'AFB', arial;
   padding-top: 54px;
   color: #868e96;
 }
@@ -47,7 +52,7 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Agency FB', arial;
+  font-family: 'AFB', arial;
   font-size: 1.5rem;
 }
 
