@@ -10,44 +10,25 @@
         <link href=vendor/fontawesome-free/css/all.min.css rel=stylesheet>
         <link href=css/resume.css rel=stylesheet>
         <link href=https://afeld.github.io/emoji-css/emoji.css rel=stylesheet>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.206/distr/fira_code.css">
+        <link href="http://allfont.net/allfont.css?fonts=agency-fb" rel="stylesheet" type="text/css" />
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">
     </head>
     <body id=page-top>
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id=sideNav>
             <a class="navbar-brand js-scroll-trigger" href=#page-top>
-			<!-- To show an element only on a given interval of screen sizes
-			d-block (Visible on all screens) d-lg-none (Hidden only on lg) d-none(Hidden on all)  
-			https://getbootstrap.com/docs/4.0/utilities/spacing/ -->
                 <span class="d-block d-lg-none"></span>
                 <span class="d-none d-lg-block">
-				<!-- 
-				Create responsive images by adding an .img-fluid class to the <img> tag. The image will then scale nicely to the parent element.
-				https://getbootstrap.com/docs/4.0/content/images/ 
-				Horizontal centering .mx-auto
-				https://getbootstrap.com/docs/4.0/utilities/spacing/ 
-				mb-2 ~ margin bottom
-				-->
                     <img class="img-fluid img-profile mx-auto mb-2 rounded mx-auto d-block" src=img/js.jpg alt="">
                 </span>
             </a>
             <ul class="list-inline social-icons">
                     <li class=list-inline-item>
-                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                    </li>
-                    <li class=list-inline-item>
-                       <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a> 
-                    </li>
-                    <li class=list-inline-item>
-                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/peleyah" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
                     <li class="list-item d-lg-none">
-                        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="https://github.com/peleyah" target="_blank"><i class="fab fa-github"></i></a>
                     </li>
-
             </ul>
         </nav>
         <nav class="navbar navbar-expand-lg navbar-collapse fixed-top navbar-light bg-light " id=topNav>
@@ -77,58 +58,38 @@
                 </ul>
             </div>
         </nav>
-		<!-- .container-fluid full width container, spanning the entire width of your viewport. 
-		p-0 ~ padding: 0;
-		p-lg-5 ~ padding on viewports sized LG (large) or wider 5
-		mb-5 ~ margin-bottom: 5;
-        -->
-        
         <div class="container-fluid p-0">
             <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=about>
-                <!--
-                    w-100 ~ width: 100;
-                    text-primary ~ color: cornflowerblue;
-                -->
                 <div class=w-100>
                     <h1 class=mb-0>João
                         <span class=text-primary>Sousa</span>
                     </h1>
-                    <!--
-                        subheading ~ text-transform: uppercase;
-                    -->
+                    
                     <div class="subheading mb-5">
+                        <h3 style="font-size:20px;"><i class="fas fa-envelope"></i>&nbsp;j.sousa@mail.com | <i class="fas fa-phone"></i>&nbsp;+351 937 372 380</h3>
                     </div>
                     <div class="css-typing">
                             <p>
-                              Junior programmer.
+                              Junior developer.
                             </p>
-                          </div>
+                    </div>
+                    
                     <blockquote class=blockquote>
                         <h4>"You don't need to be better than anyone else; you just need to be better than you used to be."</h4>
                         <footer class=blockquote-footer>Wayne Dyer</footer>
                     </blockquote>
-                    
         </div>
     </section>
 <hr class=m-0>
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=education>
     <div class=w-75>
         <h2 class=mb-5>Education</h2>
-		<!--
-		Use justify-content utilities on flexbox containers to change the alignment of flex items on the main axis 
-		(the x-axis to start, y-axis if flex-direction: column). 
-		Choose from start (browser default), end, center, between, or around.
-		https://getbootstrap.com/docs/4.0/utilities/flex/
-		-->
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class=resume-content>
                 <img src=img/logoERC.png alt="" title="ERC">
-                <div class="subheading mb-3">Management And Programming of Computer Systems</div>
+                <a href="https://www.ruizcosta.edu.pt/courses-gpsi.html" target=_blank><div class="subheading mb-3">Management And Programming of Computer Systems</div></a>
                 <div>Level IV</div>
             </div>
-			<!--
-			<p class="text-md-right">Right aligned text on viewports sized MD (medium) or wider.</p>
-			-->
             <div class="resume-date text-md-right">
                 <span class=text-primary>2016 - 2019</span>
             </div>
@@ -136,7 +97,7 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class=resume-content>
                 <img src=img/logoAtec.png alt="" title="ATEC">
-                <div class="subheading mb-3">Programming of Computer Systems</div>
+                <a href="https://www.atec.pt/cursos-formacao-profissional/tecnico-especialista-em-tecnologias-e-programacao-de-sistemas-de-informacao.html?l=1" target=_blank><div class="subheading mb-3">Programming of Computer Systems</div></a>
                 <div>Level V</div>
             </div>
             <div class="resume-date text-md-right">
@@ -148,7 +109,7 @@
 <hr class=m-0>
 <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id=skills>
     <div class=w-100>
-        <h2 class=mb-5>Programming Languages &amp; Tools</h2>
+        <h2 class=mb-5>Programming Languages &amp; Tools That I HAVE WORKED WITH</h2>
         <ul class="list-inline dev-icons">
             <li class=list-inline-item>
                 <img src="img/html-5.png" alt="" title="HTML5">
@@ -165,7 +126,7 @@
             <li class=list-inline-item>
                     <img src="img/wordpress.png" alt="" title="WORDPRESS">
             </li>
-	    <li class=list-inline-item>
+	        <li class=list-inline-item>
 	    	<img src="img/git-logo.png" alt="" title="GIT">
             </li>
         </ul>
@@ -178,8 +139,8 @@
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div class=resume-content>
                 <h3 class=mb-0>Junior Web Developer Internship</h3>
-                <div class="subheading mb-3">@AI</div>
-                <div class="subheading mb-3">Programming Languages &amp; Tools That I Loved To Use And Interact</div>
+                <div class="subheading mb-3"><a href="https://ambitoinfinito.com/" target=_blank>@Ambito Infinito</a></div>
+                <div class="subheading mb-3">Programming Languages &amp; Tools That I Loved To Use And Interact During This Internship</div>
                 <ul class="list-inline dev-icons">
                     <li class=list-inline-item>
                         <img src="img/html-5.png" alt="" title="HTML5">
@@ -223,6 +184,9 @@
                 <li class=list-inline-item>
                     <img src="img/video-player.png" alt="" title="WATCHING TV SHOWS &amp; MOVIES">
                 </li>
+                <li class=list-inline-item>
+                        <img src="img/rubik.png" alt="" title="SOLVING RUBIK'S CUBE">
+                </li>
             </ul>
         </div>
     </section>
@@ -234,33 +198,14 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Hey ;) Send me a message and I promise to answer as soon as possible.</h5>
+              <h4 class="modal-title" id="exampleModalLabel">Hey Contact me and I promise to answer as soon as possible.</h4>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <form>
             <div class="modal-body">
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label>Your name:</label>
-                        <input type="text" class="form-control" required>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label>Your email:</label>
-                        <input type="email" class="form-control" required>
-                    </div>
-                    <div class="form-group col-md-12">
-                        <label>Your message:</label>
-                        <textarea class="form-control" rows="5" id="msg" required></textarea>
-                    </div>
-                </div>  
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-              <button type="submit" class="btn btn-primary">Send message</button>
-            </div>
-            </form>
+            <h4 style="text-align: center;"><i class="fas fa-envelope"></i>j.sousa@mail.com | <i class="fas fa-phone"></i>+351 937 372 380</h4>
           </div>
         </div>
       </div>
