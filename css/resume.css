@@ -1,11 +1,9 @@
 *{
-  font-family: 'Agency FB', arial;
+  font-family: 'Asap Condensed', arial;
 }
 
-
-
 body {
-  font-family: 'Agency FB', arial;
+  font-family: 'Asap Condensed', arial;
   padding-top: 54px;
   color: #868e96;
 }
@@ -49,7 +47,6 @@ p.lead {
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
-  font-family: 'Agency FB', arial;
   font-size: 1.5rem;
 }
 
@@ -186,22 +183,22 @@ a {
 }
 
 a:hover, a:focus, a:active {
-  color: white;
+  color: cornflowerblue;
 }
 
 /* BEGINING Typing anymation */
 
 .css-typing p{
-  width: 11.5em;
+  width: 6.5em;
   opacity: 0;
-  -webkit-animation: type 1.5s steps(40, end);
-  animation: type 1.5s steps(40, end);
+  -webkit-animation: type 1.5s steps(30, end);
+  animation: type 1.5s steps(30, end);
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
   border-right: .15em solid cornflowerblue;
-  font-family: "Courier";
+  font-family: 'Asap Condensed', arial , serif;
   font-size: 25px;
   white-space: nowrap;
   overflow: hidden;
