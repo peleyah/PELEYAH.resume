@@ -189,10 +189,10 @@ a:hover, a:focus, a:active {
 /* BEGINING Typing anymation */
 
 .css-typing p{
-  width: 6.5em;
+  width: 4.2em;
   opacity: 0;
-  -webkit-animation: type 1.5s steps(20, end);
-  animation: type 1.5s steps(20, end);
+  -webkit-animation: type 1.5s steps(30, end);
+  animation: type 1.5s steps(30, end);
   -webkit-animation-delay: 2s;
   animation-delay: 2s;
   -webkit-animation-fill-mode: forwards;
