@@ -273,8 +273,103 @@ a:hover {
 }
 /* END Message button*/
 
-
 .email{
   font-size: 20px;
   color:white;
 }
+
+/* Pop-up image */
+
+.imgPop {
+  position: relative;
+}
+
+.csharp:before {
+  content: 'CSHARP'
+}
+
+.sql:before {
+  content: 'SQL'
+}
+
+.html5:before {
+  content: 'HTML5'
+}
+
+.css:before {
+  content: 'CSS'
+}
+
+.php:before {
+  content: 'PHP'
+}
+
+.prestashop:before {
+  content: 'PRESTASHOP'
+}
+
+.wordpress:before {
+  content: 'WORDPRESS'
+}
+
+.git:before {
+  content: 'GIT'
+}
+
+.laravel:before {
+  content: 'LARAVEL'
+}
+
+.semantic:before {
+  content: 'SEMANTIC UI'
+}
+
+.family:before {
+  content: 'FAMILY/FRIENDS TIME IS PRECIOUS.'
+}
+
+.billiards:before {
+  content: 'PLAYING BILLIARDS = GOOD MOOD.'
+}
+
+.travelling:before {
+  content: 'TRAVELLING AROUND THE GLOBE.'
+}
+
+.listening:before {
+  content: 'MUSIC ON, WORLD OFF.'
+}
+
+.watching:before {
+  content: 'WATCHING TV SHOWS & MOVIES.'
+}
+
+
+
+.imgPop:before {
+  position: absolute;
+  padding: 10px 15px;
+  left: 0px;
+  bottom: 25px;
+  font-size: 12.5px;
+  font-family: 'Asap Condensed';
+  color: black;
+  background: #ffffff;
+  transition: all .4s ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+  z-index: 1;
+  border-radius: 10px;
+  font-weight: normal;
+  border: .2em solid cornflowerblue;
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
+
+.imgPop:hover:before {
+  bottom: 0px;
+  opacity: 100;
+}
+
+/* End Pop-up image */
