@@ -31,7 +31,7 @@ const btn_switcher = document.querySelector('#css_switcher')
     }
 
     function revert() {
-        const css_script = `html {
+        const css = `html {
             -webkit-filter: invert(0%);
             -moz-filter: invert(0%);
             -o-filter: invert(0%);
