@@ -6,6 +6,7 @@
         <meta name=description content=CV>
         <meta name=author content=JSousa>
         <title>&lt;/J&gt; João Sousa - IT dude</title>
+        <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
         <link href=vendor/bootstrap/css/bootstrap.min.css rel=stylesheet>
         <link href=vendor/fontawesome-free/css/all.min.css rel=stylesheet>
         <link href=css/resume.css rel=stylesheet>
@@ -57,7 +58,7 @@
                         <span class=text-primary>Sousa</span>
                     </h1>
                     <div class="subheading mb-5">
-                        <h3 style="font-size:20px;"><i class="fas fa-envelope"></i>&nbsp;joaoantoniolopessousa@gmail.com | <a href="https://www.linkedin.com/in/joaoalsousa/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></h3>
+                        <h3 style="font-size:20px;"><i class="fas fa-envelope"></i>&nbsp;joaoantoniolopessousa@gmail.com | <a class="imgPop linkedin" href="https://www.linkedin.com/in/joaoalsousa/" target="_blank"><i class="fab fa-linkedin"></i> Linkedin</a></h3>
                     </div>
                     <div class="css-typing">
                             <p>
@@ -270,12 +271,16 @@
     </div>
 </section>
 <div id="css_switcher">
-    <!-- <button class="msg-me" data-toggle="modal" data-target="#contactMeModal"><i class="em em-email"></i></button> -->
-    <button class="msg-me" href="#" style=color:white><i class="em em-bomb"></i></a>
+
+    <!-- <button class="msg-me" href="#" style=color:white><i class="em em-bomb"></i> -->
+    <input type="checkbox" id="toggleDarkSwitcher" checked data-toggle="toggle" data-onstyle="outline-primary" data-offstyle="outline-secondary">
+
 </div>
+
 <script src=vendor/jquery/jquery.min.js></script>
-<script src="js/index.js"></script>
 <script src=vendor/bootstrap/js/bootstrap.bundle.min.js></script>
+<script src="js/index.js"></script>
 <script src=vendor/jquery-easing/jquery.easing.min.js></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 </body>
 </html>

@@ -328,23 +328,13 @@ a:hover {
   content: 'FAMILY/FRIENDS TIME IS PRECIOUS.'
 }
 
-.billiards:before {
-  content: 'PLAYING BILLIARDS = GOOD MOOD.'
-}
-
 .travelling:before {
   content: 'TRAVELLING AROUND THE GLOBE.'
-}
-
-.listening:before {
-  content: 'MUSIC ON, WORLD OFF.'
 }
 
 .watching:before {
   content: 'WATCHING TV SHOWS & MOVIES.'
 }
-
-
 
 .imgPop:before {
   position: absolute;

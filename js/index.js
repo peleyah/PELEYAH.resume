@@ -1,17 +1,32 @@
 const btn_switcher = document.querySelector('#css_switcher')
 
-const randomFunc = [
-revert,
-invert,
-]
-
+//Function to listen odd and even clicks on the CSS switcher (dark mode switcher)
 btn_switcher.addEventListener(
 'click',
     function() {
-        randomFunc[Math.floor(Math.random() * randomFunc.length)]();
+        var clicks = $(this).data('clicks');
+        if (clicks) {
+            //odd clicks
+            revert();
+            
+        } else {
+            //even clicks
+            invert();
+        }
+        $(this).data("clicks", !clicks);
     }
 ) 
 
+//Initialize Bootstrap toogle
+//https://gitbrent.github.io/bootstrap4-toggle/
+$(function() {
+    $('#toggleDarkSwitcher').bootstrapToggle({
+      on: 'Off',
+      off: 'On'
+    });
+  })
+
+//Function to invert colors (dark mode)
 function invert() {
     const css = `html {
         -webkit-filter: invert(100%);
@@ -30,6 +45,7 @@ function invert() {
     head.appendChild(style);
 }
 
+//Function to switch to normal color mode
 function revert() {
     const xss = `html {
         -webkit-filter: invert(0%);
