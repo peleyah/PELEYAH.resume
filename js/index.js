@@ -17,15 +17,6 @@ btn_switcher.addEventListener(
     }
 ) 
 
-//Initialize Bootstrap toogle
-//https://gitbrent.github.io/bootstrap4-toggle/
-$(function() {
-    $('#toggleDarkSwitcher').bootstrapToggle({
-      on: 'Off',
-      off: 'On'
-    });
-  })
-
 //Function to invert colors (dark mode)
 function invert() {
     const css = `html {
