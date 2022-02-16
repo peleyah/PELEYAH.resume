@@ -255,22 +255,42 @@ a:hover {
 }
 
 /* BEGINING Message button*/
-.msg-me {
+.bomb {
   background-color : cornflowerblue;
   color: white;
   padding: 10px 20px;
   border-radius: 4px;
 }
 
-.msg-me:hover {
+.bomb:hover {
   border-color: #0C3667;
 }
 
-#css_switcher {
+#css-switcher {
   position: fixed;
   bottom: -4px;
   right: 10px;
 }
+
+.arrow {
+  background-color : cornflowerblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.arrow:hover {
+  border-color: #0C3667;
+}
+
+#page-up {
+  display: none;
+  position: fixed;
+  bottom: -4px;
+  right: 90px;
+}
+
+
 /* END Message button*/
 
 .email{
@@ -280,8 +300,25 @@ a:hover {
 
 /* Pop-up image */
 
-.imgPop {
+.img-pop {
   position: relative;
+}
+
+.img-pop-hobbies-and-links {
+  position: relative;
+}
+
+.linkedin:before {
+  content: 'Checkout my LinkedIn.'
+}
+
+.github:before {
+  content: 'Checkout my GitHub.'
+}
+
+.cv:before {
+  margin-top: 5px !important;
+  content: 'Download my resume (pdf).'
 }
 
 .csharp:before {
@@ -321,7 +358,7 @@ a:hover {
 }
 
 .semantic:before {
-  content: 'SEMANTIC UI'
+  content: 'SEMANTIC'
 }
 
 .family:before {
@@ -336,7 +373,11 @@ a:hover {
   content: 'WATCHING TV SHOWS & MOVIES.'
 }
 
-.imgPop:before {
+.graphs:before {
+  content: 'PLAYING WITH CANDLESTICKS.'
+}
+
+.img-pop:before {
   position: absolute;
   padding: 10px 15px;
   left: 0px;
@@ -349,7 +390,7 @@ a:hover {
   transform: translateY(100px);
   opacity: 0;
   z-index: 1;
-  border-radius: 10px;
+  border-radius: 5px;
   font-weight: normal;
   border: .2em solid cornflowerblue;
   -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
@@ -357,8 +398,34 @@ a:hover {
   box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
 }
 
-.imgPop:hover:before {
-  bottom: 0px;
+.img-pop:hover:before {
+  bottom: 40px;
+  opacity: 100;
+}
+
+.img-pop-hobbies-and-links:before {
+  position: absolute;
+  padding: 10px 15px;
+  left: 0px;
+  bottom: 25px;
+  font-size: 12.5px;
+  font-family: 'Asap Condensed';
+  color: black;
+  background: #ffffff;
+  transition: all .4s ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+  z-index: 1;
+  border-radius: 5px;
+  font-weight: normal;
+  border: .2em solid cornflowerblue;
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
+
+.img-pop-hobbies-and-links:hover:before {
+  bottom: 10px;
   opacity: 100;
 }
 

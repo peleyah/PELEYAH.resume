@@ -1,7 +1,10 @@
-const btn_switcher = document.querySelector('#css_switcher')
+const btnCssSwitcher = document.querySelector('#css-switcher')
+pageUpBottom = document.getElementById("page-up");
+
+window.onscroll = function() {scrollFunction()};
 
 //Function to listen odd and even clicks on the CSS switcher (dark mode switcher)
-btn_switcher.addEventListener(
+btnCssSwitcher.addEventListener(
 'click',
     function() {
         var clicks = $(this).data('clicks');
@@ -54,3 +57,16 @@ function revert() {
     }
     head.appendChild(style);
 }
+
+function scrollFunction() {
+  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 490) {
+    pageUpBottom.style.display = "block";
+  } else {
+    pageUpBottom.style.display = "none";
+  }
+}
+
+function toTheTop() {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }
