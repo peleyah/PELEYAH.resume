@@ -182,8 +182,12 @@ a {
   color: cornflowerblue;
 }
 
-a:hover, a:focus, a:active {
+a:focus, a:active {
   color: cornflowerblue;
+}
+
+a:hover {
+  color: #0C3667 !important;
 }
 
 /* BEGINING Typing anymation */
@@ -250,11 +254,7 @@ a:hover, a:focus, a:active {
 
 /* END Typing anymation */
 
-a:hover {
-    color: #0C3667 !important;
-}
-
-/* BEGINING Message button*/
+/* BEGINING Bomb and Page Up Button CSS*/
 .bomb {
   background-color : cornflowerblue;
   color: white;
@@ -290,15 +290,9 @@ a:hover {
   right: 90px;
 }
 
+/* END Bomb and Page Up Button CSS*/
 
-/* END Message button*/
-
-.email{
-  font-size: 20px;
-  color:white;
-}
-
-/* Pop-up image */
+/* Pop-up images CSS*/
 
 .img-pop {
   position: relative;
@@ -306,6 +300,58 @@ a:hover {
 
 .img-pop-hobbies-and-links {
   position: relative;
+}
+
+.img-pop:before {
+  position: absolute;
+  padding: 10px 15px;
+  left: 0px;
+  bottom: 25px;
+  font-size: 12.5px;
+  font-family: 'Asap Condensed';
+  color: black;
+  background: #ffffff;
+  transition: all .4s ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+  z-index: 1;
+  border-radius: 5px;
+  font-weight: normal;
+  border: .2em solid cornflowerblue;
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
+
+.img-pop:hover:before {
+  bottom: 40px;
+  opacity: 100;
+}
+
+.img-pop-hobbies-and-links:before {
+  position: absolute;
+  padding: 10px 15px;
+  left: 0px;
+  bottom: 25px;
+  font-size: 12.5px;
+  font-family: 'Asap Condensed';
+  color: black;
+  background: #ffffff;
+  transition: all .4s ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+  z-index: 1;
+  border-radius: 5px;
+  font-weight: normal;
+  border: .2em solid cornflowerblue;
+  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
+
+.img-pop-hobbies-and-links:hover:before {
+  bottom: 10px;
+  opacity: 100;
 }
 
 .linkedin:before {
@@ -362,7 +408,7 @@ a:hover {
 }
 
 .family:before {
-  content: 'FAMILY/FRIENDS TIME IS PRECIOUS.'
+  content: 'SOCIAL TIME IS PRECIOUS.'
 }
 
 .travelling:before {
@@ -377,56 +423,8 @@ a:hover {
   content: 'PLAYING WITH CANDLESTICKS.'
 }
 
-.img-pop:before {
-  position: absolute;
-  padding: 10px 15px;
-  left: 0px;
-  bottom: 25px;
-  font-size: 12.5px;
-  font-family: 'Asap Condensed';
-  color: black;
-  background: #ffffff;
-  transition: all .4s ease-out;
-  transform: translateY(100px);
-  opacity: 0;
-  z-index: 1;
-  border-radius: 5px;
-  font-weight: normal;
-  border: .2em solid cornflowerblue;
-  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-}
-
-.img-pop:hover:before {
-  bottom: 40px;
-  opacity: 100;
-}
-
-.img-pop-hobbies-and-links:before {
-  position: absolute;
-  padding: 10px 15px;
-  left: 0px;
-  bottom: 25px;
-  font-size: 12.5px;
-  font-family: 'Asap Condensed';
-  color: black;
-  background: #ffffff;
-  transition: all .4s ease-out;
-  transform: translateY(100px);
-  opacity: 0;
-  z-index: 1;
-  border-radius: 5px;
-  font-weight: normal;
-  border: .2em solid cornflowerblue;
-  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-}
-
-.img-pop-hobbies-and-links:hover:before {
-  bottom: 10px;
-  opacity: 100;
+.email:before {
+  content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
 }
 
 /* End Pop-up image */
