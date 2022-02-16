@@ -379,6 +379,14 @@ a:hover {
   content: 'HTML5'
 }
 
+.bootstrap:before {
+  content: 'BOOTSTRAP'
+}
+
+.javascript:before {
+  content: 'JAVASCRIPT'
+}
+
 .css:before {
   content: 'CSS'
 }
