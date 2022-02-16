@@ -1,9 +1,19 @@
+/* Variables declaration */
+
 const btnCssSwitcher = document.querySelector('#css-switcher')
 pageUpBottom = document.getElementById("page-up");
 
+/* End variables declaration /*
+
+/* Event to listen to scrollbar being used and trigger scrollFunction */
+
 window.onscroll = function() {scrollFunction()};
 
-//Function to listen odd and even clicks on the CSS switcher (dark mode switcher)
+
+/* End event */
+
+/* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
+
 btnCssSwitcher.addEventListener(
 'click',
     function() {
@@ -20,7 +30,10 @@ btnCssSwitcher.addEventListener(
     }
 ) 
 
-//Function to invert colors (dark mode)
+/* End function */
+
+/* Function to invert colors (dark mode) */
+
 function invert() {
     const css = `html {
         -webkit-filter: invert(100%);
@@ -39,9 +52,12 @@ function invert() {
     head.appendChild(style);
 }
 
-//Function to switch to normal color mode
+/* End function */
+
+/* Function to switch to normal color mode */
+
 function revert() {
-    const xss = `html {
+    const xss = `html{
         -webkit-filter: invert(0%);
         -moz-filter: invert(0%);
         -o-filter: invert(0%);
@@ -58,6 +74,10 @@ function revert() {
     head.appendChild(style);
 }
 
+/* End function */
+
+/* Function to hide page top buttom on scrolling */
+
 function scrollFunction() {
   if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 490) {
     pageUpBottom.style.display = "block";
@@ -66,7 +86,11 @@ function scrollFunction() {
   }
 }
 
+/* Function to push page to the top, used when page top button is clicked */
+
 function toTheTop() {
     document.documentElement.scrollTop = 0;
     document.body.scrollTop = 0;
   }
+
+/* End function */

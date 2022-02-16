@@ -1,3 +1,5 @@
+/* Global CSS Top*/
+
 *{
   font-family: 'Asap Condensed', arial;
 }
@@ -190,6 +192,8 @@ a:hover {
   color: #0C3667 !important;
 }
 
+/* Global CSS Bottom */
+
 /* BEGINING Typing anymation */
 
 .css-typing p{
@@ -254,7 +258,7 @@ a:hover {
 
 /* END Typing anymation */
 
-/* BEGINING Bomb and Page Up Button CSS*/
+/* BEGINING Bomb and Page Up Button CSS */
 .bomb {
   background-color : cornflowerblue;
   color: white;
@@ -292,7 +296,7 @@ a:hover {
 
 /* END Bomb and Page Up Button CSS*/
 
-/* Pop-up images CSS*/
+/* Pop Up Images CSS Begining */
 
 .img-pop {
   position: relative;
@@ -435,4 +439,4 @@ a:hover {
   content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
 }
 
-/* End Pop-up image */
+/* End Pop Up Images CSS */
