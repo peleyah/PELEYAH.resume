@@ -1,7 +1,9 @@
 /* Global CSS Top*/
 
+
 *{
   font-family: 'Asap Condensed', arial;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -192,7 +194,7 @@ a:hover {
   color: #0C3667 !important;
 }
 
-/* Global CSS Bottom */
+/* Global CSS Bottom*/
 
 /* BEGINING Typing anymation */
 

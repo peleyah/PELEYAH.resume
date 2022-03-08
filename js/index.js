@@ -35,12 +35,19 @@ btnCssSwitcher.addEventListener(
 /* Function to invert colors (dark mode) */
 
 function invert() {
-    const css = `html {
+    const css = `html{
         -webkit-filter: invert(100%);
         -moz-filter: invert(100%);
         -o-filter: invert(100%);
         -ms-filter: invert(100%);
-    }`
+    }
+    .img-profile{
+        -webkit-filter: invert(100%);
+        -moz-filter: invert(100%);
+        -o-filter: invert(100%);
+        -ms-filter: invert(100%);
+    }
+    `
     const head = document.head
     const style = document.createElement('style')
     style.type = 'text/css';
@@ -62,7 +69,14 @@ function revert() {
         -moz-filter: invert(0%);
         -o-filter: invert(0%);
         -ms-filter: invert(0%);
-    }`
+    }
+    .img-profile{
+        -webkit-filter: invert(0%);
+        -moz-filter: invert(0%);
+        -o-filter: invert(0%);
+        -ms-filter: invert(0%);
+    }
+    `
     const head = document.head
     const style = document.createElement('style')
     style.type = 'text/css';
@@ -88,9 +102,22 @@ function scrollFunction() {
 
 /* Function to push page to the top, used when page top button is clicked */
 
-function toTheTop() {
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-  }
+$('button').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
 
 /* End function */
+
+/* Smooth scroll */
+
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
+
+/* Smooth scroll */
