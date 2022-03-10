@@ -105,7 +105,7 @@ function scrollFunction() {
 $('button').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
+    }, 750);
     return false;
 });
 
@@ -116,7 +116,7 @@ $('button').click(function(){
 $('a').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
+    }, 750);
     return false;
 });
 

@@ -263,7 +263,6 @@ a:hover {
 /* BEGINING Bomb and Page Up Button CSS */
 .bomb {
   background-color : cornflowerblue;
-  color: white;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -280,7 +279,6 @@ a:hover {
 
 .arrow {
   background-color : cornflowerblue;
-  color: white;
   padding: 10px 20px;
   border-radius: 4px;
 }
@@ -435,6 +433,10 @@ a:hover {
 
 .graphs:before {
   content: 'PLAYING WITH CANDLESTICKS.'
+}
+
+.lifting:before {
+  content: 'GYM TIME = THERAPY.'
 }
 
 .email:before {
