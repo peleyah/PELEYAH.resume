@@ -1,7 +1,7 @@
 /* Variables declaration */
 
 const btnCssSwitcher = document.querySelector('#css-switcher')
-pageUpBottom = document.getElementById("page-up");
+const pageUpBottom = document.querySelector("#page-up");
 
 /* End variables declaration /*
 
