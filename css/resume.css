@@ -354,7 +354,7 @@ a:hover {
 }
 
 .img-pop-hobbies-and-links:hover:before {
-  bottom: 10px;
+  bottom: 15px;
   opacity: 100;
 }
 
@@ -429,10 +429,6 @@ a:hover {
 
 .watching:before {
   content: 'WATCHING TV SHOWS & MOVIES.'
-}
-
-.graphs:before {
-  content: 'PLAYING WITH CANDLESTICKS.'
 }
 
 .lifting:before {
