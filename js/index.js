@@ -102,7 +102,7 @@ function scrollFunction() {
 
 /* Function to push page to the top, used when page top button is clicked */
 
-$('button').click(function(){
+$('#page-top-btn').click(function(){
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 750);
