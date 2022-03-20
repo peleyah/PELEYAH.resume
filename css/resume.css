@@ -116,8 +116,8 @@ a.navbar-brand {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 11.5rem;
-    max-height: 11.5rem;
+    max-width: 13.5rem;
+    max-height: 13.5rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
