@@ -299,10 +299,12 @@ a:hover {
 /* Pop Up Images CSS Begining */
 
 .img-pop {
+  cursor: pointer;
   position: relative;
 }
 
 .img-pop-hobbies-and-links {
+  cursor: pointer;
   position: relative;
 }
 
