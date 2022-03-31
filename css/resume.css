@@ -426,15 +426,19 @@ a:hover {
 }
 
 .travelling:before {
-  content: 'TRAVELLING AROUND THE GLOBE.'
+  content: 'TRAVELLING IN GOOD COMPANY.'
 }
 
 .watching:before {
   content: 'WATCHING TV SHOWS & MOVIES.'
 }
 
+.listening:before {
+  content: 'MUSIC EQUALS THERAPY.'
+}
+
 .lifting:before {
-  content: 'GYM TIME = THERAPY.'
+  content: 'THE GYM IS MY PSYCHOLOGIST.'
 }
 
 .email:before {
