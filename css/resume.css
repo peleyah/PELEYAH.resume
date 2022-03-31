@@ -445,4 +445,8 @@ a:hover {
   content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
 }
 
+.billiards:before {
+  content: 'BILLARDS IN GREAT COMPANY.'
+}
+
 /* End Pop Up Images CSS */
