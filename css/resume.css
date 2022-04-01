@@ -446,7 +446,11 @@ a:hover {
 }
 
 .billiards:before {
-  content: 'BILLARDS IN GREAT COMPANY.'
+  content: 'BILLIARDS IN GREAT COMPANY.'
+}
+
+.hosting:before {
+  content: 'GITHUB'
 }
 
 /* End Pop Up Images CSS */
