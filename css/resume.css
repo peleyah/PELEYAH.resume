@@ -194,71 +194,7 @@ a:hover {
   color: #0C3667 !important;
 }
 
-/* Global CSS Bottom*/
-
-/* BEGINING Typing anymation */
-
-.css-typing p{
-  width: 16em;
-  opacity: 0;
-  -webkit-animation: type 1.5s steps(40, end);
-  animation: type 1.5s steps(40, end);
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
-  -webkit-animation-fill-mode: forwards;
-  animation-fill-mode: forwards;
-  border-right: .25em solid cornflowerblue;
-  font-family: 'Asap Condensed', arial , serif;
-  font-size: 25px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-
-
-@keyframes type {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid cornflowerblue;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@-webkit-keyframes type {
-  0% {
-    width: 0;
-  }
-  1% {
-    opacity: 1;
-  }
-  99.9% {
-    border-right: .15em solid cornflowerblue;
-  }
-  100% {
-    opacity: 1;
-    border: none;
-  }
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
-@-webkit-keyframes blink {
-  50% {
-    border-color: tranparent;
-  }
-}
-
-/* END Typing anymation */
+/* Global CSS Bottom */
 
 /* BEGINING Bomb and Page Up Button CSS */
 .bomb {
