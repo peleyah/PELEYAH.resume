@@ -133,11 +133,11 @@ $('a').click(function(){
 function getQuote() {
 
     //Creation of a variable to store all possible quotes
-    let randNums = [0,2,3,1,4];
+    let randNums = [0,2,3,1,4,5,6,7];
 
     //Creation of the arrays
-    quotes = new Array(5);
-    sources = new Array(5);
+    quotes = new Array(8);
+    sources = new Array(8);
 
     //Initialize the arrays values with quotes
     quotes[0] = "You don't need to be better than anyone else; you just need to be better than you used to be.";
@@ -150,12 +150,18 @@ function getQuote() {
     sources[3] = "Frederick Douglass";
     quotes[4] = "Be the change you want to see in this world.";
     sources[4] = "Gandhi";
+    quotes[5] = "The biggest room in the world is the room for improvement.";
+    sources[5] = "Jeremiah Say";
+    quotes[6] = "Change is inevitable. Growth is optional.";
+    sources[6] = "John C. Maxwell";
+    quotes[7] = "When we stop growing, we stop living and start existing.";
+    sources[7] = "Warren Wiersbe";
 
     //Get a random quote
     var i = Math.floor(Math.random() * quotes.length);
     setInterval(function() {
         randNums = randNums.splice(i,1);
-    }, 50);
+    }, 25);
 
     //Integrate the quote as HTML
     document.getElementById("innerHtmlBlockquote").innerHTML = "<h4>" + quotes[randNums[i]] + "</h4>";
