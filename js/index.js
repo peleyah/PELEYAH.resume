@@ -1,3 +1,7 @@
+$(document).ready(function() { 
+    getQuote();
+});
+
 /* Variables declaration */
 
 const btnCssSwitcher = document.querySelector('#css-switcher')
@@ -123,3 +127,39 @@ $('a').click(function(){
 });
 
 /* Smooth scroll */
+
+/* Random quote */
+
+function getQuote() {
+
+    //Creation of a variable to store all possible quotes
+    let randNums = [0,2,3,1,4];
+
+    //Creation of the arrays
+    quotes = new Array(5);
+    sources = new Array(5);
+
+    //Initialize the arrays values with quotes
+    quotes[0] = "You don't need to be better than anyone else; you just need to be better than you used to be.";
+    sources[0] = "Wayne Dyer";
+    quotes[1] = "Strive not to be a success, but rather to be of value.";
+    sources[1] = "Albert Einstein";
+    quotes[2] = "Don't go through life, grow through life.";
+    sources[2] = "Eric Butterworth";
+    quotes[3] = "If there is no struggle, there is no progress.";
+    sources[3] = "Frederick Douglass";
+    quotes[4] = "Be the change you want to see in this world.";
+    sources[4] = "Gandhi";
+
+    //Get a random quote
+    var i = Math.floor(Math.random() * quotes.length);
+    setInterval(function() {
+        randNums = randNums.splice(i,1);
+    }, 50);
+
+    //Integrate the quote as HTML
+    document.getElementById("innerHtmlBlockquote").innerHTML = "<h4>" + quotes[randNums[i]] + "</h4>";
+    document.getElementById("innerHtmlBlockquote").innerHTML += "<footer class='blockquote-footer'>" + sources[randNums[i]] + "</footer>";
+}
+
+/* Random quote */
