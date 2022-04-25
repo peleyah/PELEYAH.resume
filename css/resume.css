@@ -213,6 +213,11 @@ a:hover {
   right: 10px;
 }
 
+#css-switcher {
+  border-color: #0C3667;
+}
+
+
 .arrow {
   background-color : cornflowerblue;
   padding: 10px 20px;
