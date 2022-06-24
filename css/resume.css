@@ -398,4 +398,8 @@ a:hover {
   content: 'POWERAPPS'
 }
 
+.gcloud:before {
+  content: 'G CLOUD PLATFORM'
+}
+
 /* End Pop Up Images CSS */
