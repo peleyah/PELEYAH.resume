@@ -402,4 +402,8 @@ a:hover {
   content: 'G CLOUD PLATFORM'
 }
 
+.mysql:before {
+  content: 'MYSQL'
+}
+
 /* End Pop Up Images CSS */
