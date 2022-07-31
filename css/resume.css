@@ -301,109 +301,112 @@ a:hover {
   opacity: 100;
 }
 
-.linkedin:before {
-  content: 'Checkout my LinkedIn.'
-}
 
-.github:before {
-  content: 'Checkout my GitHub.'
-}
+@media screen and (min-width: 1000px) {
+  .linkedin:before {
+    content: 'Checkout my LinkedIn.'
+  }
 
-.cv:before {
-  margin-top: 5px !important;
-  content: 'Download my resume (pdf).'
-}
+  .github:before {
+    content: 'Checkout my GitHub.'
+  }
 
-.csharp:before {
-  content: 'CSHARP'
-}
+  .cv:before {
+    margin-top: 5px !important;
+    content: 'Download my resume (pdf).'
+  }
 
-.sql:before {
-  content: 'SQL'
-}
+  .csharp:before {
+    content: 'CSHARP'
+  }
 
-.html5:before {
-  content: 'HTML5'
-}
+  .sql:before {
+    content: 'SQL'
+  }
 
-.bootstrap:before {
-  content: 'BOOTSTRAP'
-}
+  .html5:before {
+    content: 'HTML5'
+  }
 
-.javascript:before {
-  content: 'JAVASCRIPT'
-}
+  .bootstrap:before {
+    content: 'BOOTSTRAP'
+  }
 
-.css:before {
-  content: 'CSS'
-}
+  .javascript:before {
+    content: 'JAVASCRIPT'
+  }
 
-.php:before {
-  content: 'PHP'
-}
+  .css:before {
+    content: 'CSS'
+  }
 
-.prestashop:before {
-  content: 'PRESTASHOP'
-}
+  .php:before {
+    content: 'PHP'
+  }
 
-.wordpress:before {
-  content: 'WORDPRESS'
-}
+  .prestashop:before {
+    content: 'PRESTASHOP'
+  }
 
-.git:before {
-  content: 'GIT'
-}
+  .wordpress:before {
+    content: 'WORDPRESS'
+  }
 
-.laravel:before {
-  content: 'LARAVEL'
-}
+  .git:before {
+    content: 'GIT'
+  }
 
-.semantic:before {
-  content: 'SEMANTIC'
-}
+  .laravel:before {
+    content: 'LARAVEL'
+  }
 
-.family:before {
-  content: 'SOCIAL TIME IS PRECIOUS.'
-}
+  .semantic:before {
+    content: 'SEMANTIC'
+  }
 
-.travelling:before {
-  content: 'TRAVELLING IN GOOD COMPANY.'
-}
+  .family:before {
+    content: 'SOCIAL TIME IS PRECIOUS.'
+  }
 
-.watching:before {
-  content: 'WATCHING TV SHOWS & MOVIES.'
-}
+  .travelling:before {
+    content: 'TRAVELLING IN GOOD COMPANY.'
+  }
 
-.listening:before {
-  content: 'MUSIC EQUALS THERAPY.'
-}
+  .watching:before {
+    content: 'WATCHING TV SHOWS & MOVIES.'
+  }
 
-.lifting:before {
-  content: 'THE GYM IS MY PSYCHOLOGIST.'
-}
+  .listening:before {
+    content: 'MUSIC EQUALS THERAPY.'
+  }
 
-.email:before {
-  content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
-}
+  .lifting:before {
+    content: 'THE GYM IS MY PSYCHOLOGIST.'
+  }
 
-.billiards:before {
-  content: 'BILLIARDS IN GREAT COMPANY.'
-}
+  .email:before {
+    content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
+  }
 
-.hosting:before {
-  content: 'GITHUB'
-}
+  .billiards:before {
+    content: 'BILLIARDS IN GREAT COMPANY.'
+  }
 
-.powerapps:before {
-  content: 'POWERAPPS'
-}
+  .hosting:before {
+    content: 'GITHUB'
+  }
 
-.gcloud:before {
-  content: 'G CLOUD PLATFORM'
-}
+  .powerapps:before {
+    content: 'POWERAPPS'
+  }
 
-.mysql:before {
-  content: 'MYSQL'
+  .gcloud:before {
+    content: 'G CLOUD PLATFORM'
+  }
+
+  .mysql:before {
+    content: 'MYSQL'
+  }
 }
 
 /* End Pop Up Images CSS */
