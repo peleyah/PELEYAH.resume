@@ -133,29 +133,23 @@ $('a').click(function(){
 function getQuote() {
 
     //Creation of a variable to store all possible quotes
-    let randNums = [0,2,3,1,4,5,6,7];
+    let randNums = [0,2,3,1,4];
 
     //Creation of the arrays
-    quotes = new Array(8);
-    sources = new Array(8);
+    quotes = new Array(5);
+    sources = new Array(5);
 
     //Initialize the arrays values with quotes
     quotes[0] = "You don't need to be better than anyone else; you just need to be better than you used to be.";
     sources[0] = "Wayne Dyer";
-    quotes[1] = "Strive not to be a success, but rather to be of value.";
-    sources[1] = "Albert Einstein";
-    quotes[2] = "Don't go through life, grow through life.";
-    sources[2] = "Eric Butterworth";
-    quotes[3] = "If there is no struggle, there is no progress.";
-    sources[3] = "Frederick Douglass";
-    quotes[4] = "Be the change you want to see in this world.";
-    sources[4] = "Gandhi";
-    quotes[5] = "The biggest room in the world is the room for improvement.";
-    sources[5] = "Jeremiah Say";
-    quotes[6] = "Change is inevitable. Growth is optional.";
-    sources[6] = "John C. Maxwell";
-    quotes[7] = "When we stop growing, we stop living and start existing.";
-    sources[7] = "Warren Wiersbe";
+    quotes[1] = "Don't go through life, grow through life.";
+    sources[1] = "Eric Butterworth";
+    quotes[2] = "If there is no struggle, there is no progress.";
+    sources[2] = "Frederick Douglass";
+    quotes[3] = "Change is inevitable. Growth is optional.";
+    sources[3] = "John C. Maxwell";
+    quotes[4] = "When we stop growing, we stop living and start existing.";
+    sources[4] = "Warren Wiersbe";
 
     //Get a random quote
     var i = Math.floor(Math.random() * quotes.length);
