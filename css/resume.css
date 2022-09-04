@@ -365,19 +365,19 @@ a:hover {
   }
 
   .family:before {
-    content: 'SOCIAL TIME IS PRECIOUS.'
+    content: 'SOCIALIZATION IS ESSENTIAL.'
   }
 
   .travelling:before {
-    content: 'TRAVELLING IN GOOD COMPANY.'
+    content: 'TRAVELLING THE GLOBE.'
   }
 
   .watching:before {
-    content: 'WATCHING TV SHOWS & MOVIES.'
+    content: 'WATCHING MOVIES.'
   }
 
   .listening:before {
-    content: 'MUSIC EQUALS THERAPY.'
+    content: 'MUSIC = THERAPY.'
   }
 
   .lifting:before {
@@ -389,7 +389,7 @@ a:hover {
   }
 
   .billiards:before {
-    content: 'BILLIARDS IN GREAT COMPANY.'
+    content: 'PLAYING BILLIARDS.'
   }
 
   .hosting:before {
@@ -401,11 +401,19 @@ a:hover {
   }
 
   .gcloud:before {
-    content: 'G CLOUD PLATFORM'
+    content: 'G CLOUD'
   }
 
   .mysql:before {
     content: 'MYSQL'
+  }
+
+  .pingpongfury:before {
+    content: 'PINGPONGFURY MOBILE GAME.'
+  }
+
+  .forex:before {
+    content: 'BUY & SELL SECURITIES.'
   }
 }
 
