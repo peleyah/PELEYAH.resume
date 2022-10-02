@@ -108,7 +108,7 @@ function scrollFunction() {
 
 $('#page-top-btn').click(function(){
     $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
+        scrollTop: $('#page-top').offset().top
     }, 750);
     return false;
 });
