@@ -409,11 +409,11 @@ a:hover {
   }
 
   .videogame:before {
-    content: 'PLAYING VIDEO GAMES.'
+    content: 'VIDEO GAMES.'
   }
 
   .forex:before {
-    content: 'TRADINGVIEW: MY SECOND HOME.'
+    content: 'TRADINGVIEW: SECOND HOME.'
   }
 }
 
