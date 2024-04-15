@@ -252,14 +252,14 @@ a:hover {
 .img-pop:before {
   position: absolute;
   padding: 10px 15px;
-  left: 0px;
-  top: 25px;
+  left: 50px;
+  bottom: 25px;
   font-size: 12.5px;
   font-family: 'Asap Condensed';
   color: black;
   background: #ffffff;
   transition: all .4s ease-out;
-  transform: translateY(100px);
+  transform: translateY(-15px);
   opacity: 0;
   z-index: 1;
   border-radius: 5px;
@@ -278,14 +278,14 @@ a:hover {
 .img-pop-hobbies-and-links:before {
   position: absolute;
   padding: 10px 15px;
-  left: 0px;
+  left: 50px;
   bottom: 25px;
   font-size: 12.5px;
   font-family: 'Asap Condensed';
   color: black;
   background: #ffffff;
   transition: all .4s ease-out;
-  transform: translateY(100px);
+  transform: translateY(-15px);
   opacity: 0;
   z-index: 1;
   border-radius: 5px;
@@ -294,12 +294,6 @@ a:hover {
   -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-}
-
-.img-pop-hobbies-and-links:hover:before {
-  bottom: 15px;
-  opacity: 100;
-}
 
 
 @media screen and (min-width: 1000px) {
