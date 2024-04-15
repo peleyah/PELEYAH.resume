@@ -294,7 +294,12 @@ a:hover {
   -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+}
 
+.img-pop-hobbies-and-links:hover:before {
+  bottom: 15px;
+  opacity: 100;
+}
 
 @media screen and (min-width: 1000px) {
   .linkedin:before {
