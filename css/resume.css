@@ -408,10 +408,6 @@ a:hover {
     content: 'MYSQL'
   }
 
-  .videogame:before {
-    content: 'VIDEO GAMES.'
-  }
-
   .forex:before {
     content: 'BUY & SELL SECURITIES.'
   }
