@@ -411,6 +411,11 @@ a:hover {
   .forex:before {
     content: 'BUY & SELL SECURITIES.'
   }
+
+  .jira:before {
+    content: 'JIRA'
+  }
+  
 }
 
 /* End Pop Up Images CSS */
