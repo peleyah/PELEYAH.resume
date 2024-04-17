@@ -1,6 +1,5 @@
 $(document).ready(function() { 
     getQuote();
-    titleScroller();
 });
 
 /* Variables declaration */
