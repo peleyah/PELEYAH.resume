@@ -28,7 +28,7 @@ function invertCSS() {
     $(this).data("clicks", !clicks);
 }
 
-btnCssSwitcher.addEventListener("click",invertCSS);
+$(btnCssSwitcher).click(invertCSS);
 
 /* End function */
 
