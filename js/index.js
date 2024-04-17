@@ -16,8 +16,6 @@ window.onscroll = function() {scrollFunction()};
 /* End event */
 
 /* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
-
-btnCssSwitcher.addEventListener("click",invertCSS);
 function invertCSS() {
     var clicks = $(this).data('clicks');
     if (clicks) {
@@ -29,6 +27,8 @@ function invertCSS() {
     }
     $(this).data("clicks", !clicks);
 }
+
+btnCssSwitcher.addEventListener("click",invertCSS);
 
 /* End function */
 
