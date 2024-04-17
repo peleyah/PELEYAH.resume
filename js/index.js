@@ -17,27 +17,25 @@ window.onscroll = function() {scrollFunction()};
 
 /* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
 
-btnCssSwitcher.addEventListener(
-'click',
-    function() {
-        var clicks = $(this).data('clicks');
-        if (clicks) {
-            //odd clicks
-            revert();
-            
-        } else {
-            //even clicks
-            invert();
-        }
-        $(this).data("clicks", !clicks);
+btnCssSwitcher.addEventListener("click",invertCSS);
+function invertCSS {
+    var clicks = $(this).data('clicks');
+    if (clicks) {
+        //odd clicks
+        revert();
+        
+    } else {
+        //even clicks
+        invert();
     }
-) 
+    $(this).data("clicks", !clicks);
+}
 
 /* End function */
 
 /* Function to make page title to scroll */
 
-(function titleScroller(text) {
+function titleScroller(text) {
    document.title = text;
    setTimeout(function () {
       titleScroller(text.substr(1) + text.substr(0, 1));
