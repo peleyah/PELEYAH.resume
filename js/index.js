@@ -1,5 +1,6 @@
 $(document).ready(function() { 
     getQuote();
+    titleScroller();
 });
 
 /* Variables declaration */
@@ -11,7 +12,7 @@ const pageUpBottom = document.querySelector("#page-up");
 
 /* Event to listen to scrollbar being used and trigger scrollFunction */
 
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction();};
 
 /* End event */
 
