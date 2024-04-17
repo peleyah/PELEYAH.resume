@@ -36,6 +36,17 @@ btnCssSwitcher.addEventListener(
 
 /* End function */
 
+/* Function to make page title to scroll */
+
+(function titleScroller(text) {
+   document.title = text;
+   setTimeout(function () {
+      titleScroller(text.substr(1) + text.substr(0, 1));
+   }, 500);
+}("João Sousa - IT Individual"));
+
+/* End Function */
+
 /* Function to invert colors (dark mode) */
 
 function invert() {
