@@ -33,17 +33,6 @@ $(btnCssSwitcher).click(invertCSS);
 
 /* End function */
 
-/* Function to make page title to scroll */
-
-function titleScroller(text) {
-   document.title = text;
-   setTimeout(function () {
-      titleScroller(text.substr(1) + text.substr(0, 1));
-   }, 500);
-};
-
-/* End Function */
-
 /* Function to invert colors (dark mode) */
 
 function invert() {
