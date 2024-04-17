@@ -18,12 +18,11 @@ window.onscroll = function() {scrollFunction()};
 /* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
 
 btnCssSwitcher.addEventListener("click",invertCSS);
-function invertCSS {
+function invertCSS() {
     var clicks = $(this).data('clicks');
     if (clicks) {
         //odd clicks
         revert();
-        
     } else {
         //even clicks
         invert();
@@ -40,7 +39,7 @@ function titleScroller(text) {
    setTimeout(function () {
       titleScroller(text.substr(1) + text.substr(0, 1));
    }, 500);
-}("João Sousa - IT Individual"));
+}(text);
 
 /* End Function */
 
