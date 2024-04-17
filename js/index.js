@@ -13,7 +13,6 @@ const pageUpBottom = document.querySelector("#page-up");
 
 window.onscroll = function() {scrollFunction()};
 
-
 /* End event */
 
 /* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
