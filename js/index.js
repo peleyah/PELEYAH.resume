@@ -15,6 +15,15 @@ window.onscroll = function() {scrollFunction();};
 
 /* End event */
 
+/* Loader */
+
+  var preloader = document.getElementById('loader');
+  function preLoaderHandler(){
+      preloader.style.display = 'none';
+  }
+
+/* End Loader */
+
 /* Function to listen odd and even clicks on the CSS switcher (dark mode switcher) */
 function invertCSS() {
     var clicks = $(this).data('clicks');
