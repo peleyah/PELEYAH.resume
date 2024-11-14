@@ -1,369 +1,394 @@
-/* Global CSS Top*/
+  /* Global CSS Top*/
 
 
-*{
-  font-family: 'Asap Condensed', arial;
-  scroll-behavior: smooth;
-}
+  *{
+    font-family: 'Asap Condensed', arial;
+    scroll-behavior: smooth;
+  }
 
-body {
-  font-family: 'Asap Condensed', arial;
-  padding-top: 54px;
-  color: #868e96;
-}
-
-@media (min-width: 992px) {
   body {
-    padding-top: 0;
-    padding-left: 17rem;
+    font-family: 'Asap Condensed', arial;
+    padding-top: 54px;
+    color: #868e96;
   }
-}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #343a40;
-}
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;
+      padding-left: 17rem;
+    }
+  }
 
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
-}
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+  }
 
-h2 {
-  font-size: 3.5rem;
-}
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
 
-h3 {
-  font-size: 2rem;
-}
+  h2 {
+    font-size: 3.5rem;
+  }
 
-p.lead {
-  font-size: 1.15rem;
-  font-weight: 400;
-}
+  h3 {
+    font-size: 2rem;
+  }
 
-.subheading {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 1.5rem;
-}
+  p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+  }
 
-.dev-icons {
-  font-size: 3rem;
-}
+  .subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
 
-.dev-icons .list-inline-item i:hover {
-  color: cornflowerblue;
-}
+  .dev-icons {
+    font-size: 3rem;
+  }
 
-.social-icons a{
-  color: white;
-  font-size: 2rem;
-}
+  .dev-icons .list-inline-item i:hover {
+    color: cornflowerblue;
+  }
 
-.social-icons .list-inline-item i:hover {
-  color:#0C3667;
-}
+  .social-icons a{
+    color: white;
+    font-size: 2rem;
+  }
 
-#sideNav .navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
+  .social-icons .list-inline-item i:hover {
+    color:#0C3667;
+  }
 
-.navbar-nav .nav-item .nav-link {
-  font-weight: 800;
-  font-size: 20px;
-  letter-spacing: 0.05rem;
-  text-transform: uppercase;
-}
+  #sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
 
-a.navbar-brand {
-  color: white !important;
-}
+  .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    font-size: 20px;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+  }
 
-#topNav{
-  background-color: cornflowerblue !important;
-}
+  a.navbar-brand {
+    color: white !important;
+  }
 
-@media (min-width: 992px) {
-  #sideNav {
-    text-align: center;
+  #topNav{
+    background-color: cornflowerblue !important;
+  }
+
+  @media (min-width: 992px) {
+    #sideNav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 17rem;
+      height: 100vh; 
+    }
+    #sideNav .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 0.5rem;
+    }
+    #sideNav .navbar-brand .img-profile {
+      max-width: 13.5rem;
+      max-height: 13.5rem;
+      border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    }
+    #sideNav .navbar-collapse {
+      display: flex;
+      align-items: flex-start;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #sideNav .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      width: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+    }
+  }
+
+  section.resume-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+    max-width: 75rem;
+  }
+
+  @media (min-width: 768px) {
+    section.resume-section {
+      min-height: 100vh; /* Relative to 1% of the height of the viewport */
+    }
+    section.resume-section .resume-item .resume-date {
+      min-width: 18rem;
+    }
+  }
+
+  @media (min-width: 992px) {
+    section.resume-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  .bg-primary {
+    background-color: cornflowerblue !important;
+  }
+
+  .text-primary {
+    color: cornflowerblue !important;
+  }
+
+  a {
+    color: cornflowerblue;
+  }
+
+  a:focus, a:active {
+    color: cornflowerblue;
+  }
+
+  a:hover {
+    color: #0C3667 !important;
+  }
+
+  /* Global CSS Bottom */
+
+  /* BEGINING Bomb and Page Up Button CSS */
+  .bomb {
+    background-color : cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  .bomb:hover {
+    border-color: yellow;
+  }
+
+  #css-switcher {
     position: fixed;
-    top: 0;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    width: 17rem;
-    height: 100vh; 
+    bottom: -4px;
+    right: 10px;
   }
-  #sideNav .navbar-brand {
-    display: flex;
-    margin: auto auto 0;
-    padding: 0.5rem;
+
+  #css-switcher {
+    border-color: yellow;
   }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 13.5rem;
-    max-height: 13.5rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+
+
+  .arrow {
+    background-color : cornflowerblue;
+    padding: 10px 20px;
+    border-radius: 4px;
   }
-  #sideNav .navbar-collapse {
-    display: flex;
-    align-items: flex-start;
-    flex-grow: 0;
-    width: 100%;
-    margin-bottom: auto;
+
+  .arrow:hover {
+    border-color: yellow;
   }
-  #sideNav .navbar-collapse .navbar-nav {
-    flex-direction: column;
-    width: 100%;
+
+  #page-up {
+    display: none;
+    position: fixed;
+    bottom: -4px;
+    right: 90px;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item {
-    display: block;
+
+  /* END Bomb and Page Up Button CSS*/
+
+  /* Pop Up Images CSS Begining */
+
+  .img-pop {
+    cursor: pointer;
+    position: relative;
   }
-  #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
-    display: block;
+
+  .img-pop-hobbies-and-links {
+    cursor: pointer;
+    position: relative;
   }
+
+  .img-pop:before {
+    position: absolute;
+    padding: 10px 15px;
+    left: 50px;
+    bottom: 25px;
+    font-size: 12.5px;
+    font-family: 'Asap Condensed';
+    color: black;
+    background: #ffffff;
+    transition: all .4s ease-out;
+    transform: translateY(-15px);
+    opacity: 0;
+    z-index: 1;
+    border-radius: 5px;
+    font-weight: normal;
+    border: .2em solid cornflowerblue;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
+  }
+
+  .img-pop:hover:before {
+    bottom: 40px;
+    opacity: 100;
 }
-
-section.resume-section {
-  padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
-  max-width: 75rem;
-}
-
-@media (min-width: 768px) {
-  section.resume-section {
-    min-height: 100vh; /* Relative to 1% of the height of the viewport */
-    min-width: 18rem;
+  .img-pop-hobbies-and-links:before {
+    position: absolute;
+    padding: 10px 15px;
+    left: 50px;
+    bottom: 25px;
+    font-size: 12.5px;
+    font-family: 'Asap Condensed';
+    color: black;
+    background: #ffffff;
+    transition: all .4s ease-out;
+    transform: translateY(-15px);
+    opacity: 0;
+    z-index: 1;
+    border-radius: 5px;
+    font-weight: normal;
+    border: .2em solid cornflowerblue;
+    box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   }
-}
-
-@media (min-width: 992px) {
-  section.resume-section {
-    padding-top: 3rem !important;
-    padding-bottom: 3rem !important;
-  }
-}
-
-.bg-primary {
-  background-color: cornflowerblue !important;
-}
-
-.text-primary {
-  color: cornflowerblue !important;
-}
-
-a {
-  color: cornflowerblue;
-}
-
-a:focus, a:active {
-  color: cornflowerblue;
-}
-
-a:hover {
-  color: #0C3667 !important;
-}
-
-/* Global CSS Bottom */
-
-/* BEGINING Bomb and Page Up Button CSS */
-.bomb {
-  background-color : cornflowerblue;
-  padding: 10px 20px;
-  border-radius: 4px;
-}
-
-.bomb:hover {
-  border-color: yellow;
-}
-
-#css-switcher {
-  position: fixed;
-  bottom: -4px;
-  right: 10px;
-}
-
-#css-switcher {
-  border-color: yellow;
-}
-
-
-.arrow {
-  background-color : cornflowerblue;
-  padding: 10px 20px;
-  border-radius: 4px;
-}
-
-.arrow:hover {
-  border-color: yellow;
-}
-
-#page-up {
-  display: none;
-  position: fixed;
-  bottom: -4px;
-  right: 90px;
-}
-
-/* END Bomb and Page Up Button CSS*/
-
-/* Pop Up Images CSS Begining */
-
-.img-pop {
-  cursor: pointer;
-  position: relative;
-}
-
-.img-pop-hobbies-and-links {
-  cursor: pointer;
-  position: relative;
-}
-
-.img-pop:before {
-  position: absolute;
-  padding: 10px 15px;
-  left: 50px;
-  bottom: 25px;
-  font-size: 12.5px;
-  font-family: 'Asap Condensed';
-  color: black;
-  background: #ffffff;
-  transition: all .4s ease-out;
-  transform: translateY(-15px);
-  opacity: 0;
-  z-index: 1;
-  border-radius: 5px;
-  font-weight: normal;
-  border: .2em solid cornflowerblue;
-  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-}
-
-.img-pop:hover:before {
-  bottom: 40px;
-}
-
-@media screen and (min-width: 1000px) {
-  .linkedin:before {
-    content: 'Checkout my LinkedIn.'
+  .img-pop-hobbies-and-links:hover:before {
+    bottom: 15px;
+    opacity: 100;
   }
 
-  .github:before {
-    content: 'Checkout my GitHub.'
+  @media screen and (min-width: 1000px) {
+    .linkedin:before {
+      content: 'Checkout my LinkedIn.'
+    }
+
+    .github:before {
+      content: 'Checkout my GitHub.'
+    }
+
+    .cv:before {
+      margin-top: 5px !important;
+      content: 'Download my resume (pdf).'
+    }
+
+    .csharp:before {
+      content: 'CSHARP'
+    }
+
+    .sql:before {
+      content: 'SQL'
+    }
+
+    .html5:before {
+      content: 'HTML5'
+    }
+
+    .bootstrap:before {
+      content: 'BOOTSTRAP'
+    }
+
+    .javascript:before {
+      content: 'JAVASCRIPT'
+    }
+
+    .css:before {
+      content: 'CSS'
+    }
+
+    .php:before {
+      content: 'PHP'
+    }
+
+    .prestashop:before {
+      content: 'PRESTASHOP'
+    }
+
+    .wordpress:before {
+      content: 'WORDPRESS'
+    }
+
+    .git:before {
+      content: 'GIT'
+    }
+
+    .laravel:before {
+      content: 'LARAVEL'
+    }
+
+    .semantic:before {
+      content: 'SEMANTIC'
+    }
+
+    .family:before {
+      content: 'SOCIALIZATION IS ESSENTIAL.'
+    }
+
+    .travelling:before {
+      content: 'TRAVELLING THE GLOBE.'
+    }
+
+    .watching:before {
+      content: 'WATCHING MOVIES.'
+    }
+
+    .listening:before {
+      content: 'MUSIC = THERAPY.'
+    }
+
+    .lifting:before {
+      content: 'THE GYM IS MY PSYCHOLOGIST.'
+    }
+
+    .email:before {
+      content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
+    }
+
+    .padel:before {
+      content: 'PLAYING PADEL.'
+    }
+
+    .hosting:before {
+      content: 'GITHUB'
+    }
+
+    .powerapps:before {
+      content: 'POWERAPPS'
+    }
+
+    .gcloud:before {
+      content: 'GCLOUD'
+    }
+
+    .mysql:before {
+      content: 'MYSQL'
+    }
+
+    .forex:before {
+      content: 'BUY & SELL SECURITIES.'
+    }
+
+    .jira:before {
+      content: 'JIRA'
+    }
+    
   }
 
-  .cv:before {
-    margin-top: 5px !important;
-    content: 'Download my resume (pdf).'
-  }
-
-  .csharp:before {
-    content: 'CSHARP'
-  }
-
-  .sql:before {
-    content: 'SQL'
-  }
-
-  .html5:before {
-    content: 'HTML5'
-  }
-
-  .bootstrap:before {
-    content: 'BOOTSTRAP'
-  }
-
-  .javascript:before {
-    content: 'JAVASCRIPT'
-  }
-
-  .css:before {
-    content: 'CSS'
-  }
-
-  .php:before {
-    content: 'PHP'
-  }
-
-  .prestashop:before {
-    content: 'PRESTASHOP'
-  }
-
-  .wordpress:before {
-    content: 'WORDPRESS'
-  }
-
-  .git:before {
-    content: 'GIT'
-  }
-
-  .laravel:before {
-    content: 'LARAVEL'
-  }
-
-  .semantic:before {
-    content: 'SEMANTIC'
-  }
-
-  .family:before {
-    content: 'SOCIALIZATION IS ESSENTIAL.'
-  }
-
-  .travelling:before {
-    content: 'TRAVELLING THE GLOBE.'
-  }
-
-  .watching:before {
-    content: 'WATCHING MOVIES.'
-  }
-
-  .listening:before {
-    content: 'MUSIC = THERAPY.'
-  }
-
-  .lifting:before {
-    content: 'THE GYM IS MY PSYCHOLOGIST.'
-  }
-
-  .email:before {
-    content: 'YOU CAN REACH ME VIA AN EMAIL TO JOAOANTONIOLOPESSOUSA@GMAIL.COM, I WILL BE MORE THAN GLAD TO GIVE YOU A QUICK ANSWER.'
-  }
-
-  .padel:before {
-    content: 'PLAYING PADEL.'
-  }
-
-  .hosting:before {
-    content: 'GITHUB'
-  }
-
-  .powerapps:before {
-    content: 'POWERAPPS'
-  }
-
-  .gcloud:before {
-    content: 'GCLOUD'
-  }
-
-  .mysql:before {
-    content: 'MYSQL'
-  }
-
-  .forex:before {
-    content: 'BUY & SELL SECURITIES.'
-  }
-
-  .jira:before {
-    content: 'JIRA'
-  }
-  
-}
-
-/* End Pop Up Images CSS */
+  /* End Pop Up Images CSS */
