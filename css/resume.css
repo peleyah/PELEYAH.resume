@@ -116,7 +116,6 @@ a.navbar-brand {
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
-    -ms-flex-positive: 0;
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
@@ -247,8 +246,6 @@ a:hover {
   border-radius: 5px;
   font-weight: normal;
   border: .2em solid cornflowerblue;
-  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
 }
 
@@ -273,8 +270,6 @@ a:hover {
   border-radius: 5px;
   font-weight: normal;
   border: .2em solid cornflowerblue;
-  -webkit-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-  -moz-box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
   box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
 }
 
