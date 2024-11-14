@@ -136,9 +136,6 @@ section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
-}
-
-section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
@@ -252,31 +249,6 @@ a:hover {
 
 .img-pop:hover:before {
   bottom: 40px;
-  opacity: 100;
-}
-
-.img-pop-hobbies-and-links:before {
-  position: absolute;
-  padding: 10px 15px;
-  left: 50px;
-  bottom: 25px;
-  font-size: 12.5px;
-  font-family: 'Asap Condensed';
-  color: black;
-  background: #ffffff;
-  transition: all .4s ease-out;
-  transform: translateY(-15px);
-  opacity: 0;
-  z-index: 1;
-  border-radius: 5px;
-  font-weight: normal;
-  border: .2em solid cornflowerblue;
-  box-shadow: 8px 7px 5px 0px rgba(0, 0, 0, .5);
-}
-
-.img-pop-hobbies-and-links:hover:before {
-  bottom: 15px;
-  opacity: 100;
 }
 
 @media screen and (min-width: 1000px) {
